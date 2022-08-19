@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Sidney2022/Sunnyside-agency-landing-page)
+- Live Site URL: [Add live site URL here](https://sidney2022.github.io/Sunnyside-agency-landing-page/)
 
 
 ## Author
 
 - Website - [Sidney](https://www.sidneyuwaya.netlify.app )
-- Frontend Mentor - [@sidney2022](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@sidney2022](https://www.frontendmentor.io/profile/Sidney2022)
 
 
