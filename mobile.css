@@ -137,16 +137,16 @@
 }
 
 .box1 {
-    background: url(/images/mobile/image-gallery-milkbottles.jpg) no-repeat center center/cover no-repeat center center/cover;
+    background: url(./images/mobile/image-gallery-milkbottles.jpg) no-repeat center center/cover no-repeat center center/cover;
 }
 .box2 {
-    background: url(/images/mobile/image-gallery-orange.jpg) no-repeat center center/cover no-repeat center center/cover;
+    background: url(./images/mobile/image-gallery-orange.jpg) no-repeat center center/cover no-repeat center center/cover;
 }
 .box3 {
-    background: url(/images/mobile/image-gallery-cone.jpg) no-repeat center center/cover no-repeat center center/cover;
+    background: url(./images/mobile/image-gallery-cone.jpg) no-repeat center center/cover no-repeat center center/cover;
 }
 .box4 {
-    background: url(/images/mobile/image-gallery-sugar-cubes.jpg) no-repeat center center/cover no-repeat center center/cover;
+    background: url(./images/mobile/image-gallery-sugar-cubes.jpg) no-repeat center center/cover no-repeat center center/cover;
 }
 
 .testimonials .grid{

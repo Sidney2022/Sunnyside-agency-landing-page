@@ -239,16 +239,16 @@ p {
     width: 100%;
 }
 .box1 {
-    background: url(/images/desktop/image-gallery-milkbottles.jpg) no-repeat center center/cover;
+    background: url(./images/desktop/image-gallery-milkbottles.jpg) no-repeat center center/cover;
 }
 .box2 {
-    background: url(/images/desktop/image-gallery-orange.jpg) no-repeat center center/cover;
+    background: url(./images/desktop/image-gallery-orange.jpg) no-repeat center center/cover;
 }
 .box3 {
-    background: url(/images/desktop/image-gallery-cone.jpg) no-repeat center center/cover;
+    background: url(./images/desktop/image-gallery-cone.jpg) no-repeat center center/cover;
 }
 .box4 {
-    background: url(/images/desktop/image-gallery-sugarcubes.jpg) no-repeat center center/cover;
+    background: url(./images/desktop/image-gallery-sugarcubes.jpg) no-repeat center center/cover;
 }
 .footer {
     text-align: center;
