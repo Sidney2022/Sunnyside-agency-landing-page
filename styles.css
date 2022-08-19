@@ -115,7 +115,6 @@ p {
 .card-text {
     padding: 100px;
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     justify-content: center;
 }
@@ -163,7 +162,6 @@ p {
 }
 
 .txt-card  {
-    /* height:70vh; */
     text-align: center;
     
 }

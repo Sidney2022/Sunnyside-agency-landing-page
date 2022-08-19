@@ -74,7 +74,7 @@
 }
 
 .cards {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -123,17 +123,24 @@
 .text-card1 {
     background: url(./images/mobile/image-graphic-design.jpg) no-repeat center center/cover no-repeat center center/cover; 
     color: hsl(167, 40%, 24%); 
-    /* padding-bottom: 0px; */
     height: 500px;
     padding: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
 
 }
 .text-card2 {
     background: url(./images/mobile/image-photography.jpg) no-repeat center center/cover no-repeat center center/cover;  
     color: hsl(198, 62%, 26%);  
     height: 500px;
+    padding: 50px;
+    padding-top: 100px;
+   
+    
 
+}
+
+.text-card2 h3 {
+    padding-top: 300px;
 }
 
 .box1 {
@@ -154,12 +161,15 @@
 }
 
 .testimonials {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .testimonial p {
-    padding: 20px;
     min-height:fit-content !important;
+}
+
+.testimonials h2 {
+    font-size: 1.5rem;
 }
 .testimonial {
     padding-top: 50px;
