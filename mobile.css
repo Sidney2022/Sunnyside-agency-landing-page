@@ -1,0 +1,170 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+
+ }
+
+ .hero {
+    background: url(./images/mobile/image-header.jpg) no-repeat center center/cover no-repeat center center/cover;
+    background-color: green;
+ }
+
+.navbar .flex nav {
+     background-color: red;
+     text-align: center;
+     display: none;
+   
+
+ }
+
+ .navbar .flex nav ul {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 80vw;
+    margin: 0 auto;
+    left: 10vw;
+    top:100px ;
+    height: 400px;
+ }
+ .navbar .flex nav ul li{
+    padding: 20px;
+ }
+ .navbar .flex nav ul a {
+    color: #333;
+ }
+
+ .nav {
+    position: relative;
+ }
+
+ .navbar a:hover {
+    background: hsl(51, 100%, 49%);
+ }
+ .mob-menu {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+ }
+
+ .times {
+    display: none;
+ }
+.home h1 {
+    font-size: 3rem;
+    line-height: 1.2em;
+}
+.home {
+    padding-top: 120px;
+
+}
+
+.navbar .flex nav.active {
+    display: block;
+}
+.active {
+    display: block;
+}
+.menu-open.active {
+    display: none;
+}
+
+.cards {
+    margin-bottom: 200px;
+}
+
+.card {
+    grid-template-columns: 1fr;
+    height: 800px;
+}
+.card-text, .card-img {
+    height: 400px;
+    width: 100vw;
+}
+.card-text {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.card h2 {
+    font-size: 2rem;
+}
+
+.card:nth-child(1) .card-img {
+    order: -1;
+}
+.triangle {
+	border-left: 100px solid transparent;
+	border-right: 100px solid #fff;
+	border-top: 100px solid transparent;
+    position: absolute;
+    right:0 ;
+    top: -50px;
+    display: none;
+}
+.triangle.active {
+    display: block;
+}
+
+.card1 .card-img {
+    background: url(./images/mobile/image-transform.jpg) no-repeat center center/cover;
+}
+.card2 .card-img {
+    background: url(./images/mobile/image-stand-out.jpg) no-repeat center center/cover
+}
+.card {
+ padding: 0;   
+}
+.text-card1 {
+    background: url(./images/mobile/image-graphic-design.jpg) no-repeat center center/cover no-repeat center center/cover; 
+    color: hsl(167, 40%, 24%); 
+    /* padding-bottom: 0px; */
+    height: 500px;
+    padding: 50px;
+    padding-bottom: 50px;
+
+}
+.text-card2 {
+    background: url(./images/mobile/image-photography.jpg) no-repeat center center/cover no-repeat center center/cover;  
+    color: hsl(198, 62%, 26%);  
+    height: 500px;
+
+}
+
+.box1 {
+    background: url(/images/mobile/image-gallery-milkbottles.jpg) no-repeat center center/cover no-repeat center center/cover;
+}
+.box2 {
+    background: url(/images/mobile/image-gallery-orange.jpg) no-repeat center center/cover no-repeat center center/cover;
+}
+.box3 {
+    background: url(/images/mobile/image-gallery-cone.jpg) no-repeat center center/cover no-repeat center center/cover;
+}
+.box4 {
+    background: url(/images/mobile/image-gallery-sugar-cubes.jpg) no-repeat center center/cover no-repeat center center/cover;
+}
+
+.testimonials .grid{
+    grid-template-columns: 1fr;
+}
+
+.testimonials {
+    margin-top: 200px;
+}
+
+.testimonial p {
+    padding: 20px;
+    min-height:fit-content !important;
+}
+.testimonial {
+    padding-top: 50px;
+}
+
+.boxes {
+    flex-direction: column;
+}

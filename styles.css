@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+
+    line-height: 1.6em;
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 18px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 50px;
+    padding-top: 10px;
+    background: url(./images/desktop/image-header.jpg) no-repeat center center/cover;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.navbar .flex {
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+    transition: background .6s ease-in-out ;
+
+}
+
+.mob-menu {
+    display: none;
+}
+
+.navbar a:hover {
+    background-color: #84ecfe;
+}
+
+
+.home {
+    text-align: center;
+    padding-top: 190px;
+}
+
+.home h1 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900 ;
+    word-spacing: 10px;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+.upper {
+    text-transform: uppercase;
+}
+.cards {
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: hsl(0, 0%, 100%) ;
+    height: 75vh;
+}
+
+.card img {
+    width: 100%;
+    background-color: red;
+    height: 75vh;
+}
+
+.card1 .card-img {
+    background: url(./images/desktop/image-transform.jpg);
+}
+.card2 .card-img {
+    background: url(./images/desktop/image-stand-out.jpg)
+}
+
+.card-text {
+    padding: 100px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text h2, h3 {
+    font-size: 2.7rem;
+    line-height: 1em;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+
+
+}
+
+.card-text p {
+    padding: 30px 0;
+}
+
+.card-text a{
+    position: relative;
+    font-family: 'Fraunces', serif;
+
+    
+}
+
+.card-text a::after {
+
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 10px;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.card1 .card-text a::after {
+    background-color: hsl(51, 100%, 49%);
+}
+.card2 .card-text a::after {
+    background-color: hsl(7, 99%, 70%) ;
+}
+.card-text a:hover:after {
+    width: 100px;
+
+}
+
+.txt-card  {
+    /* height:70vh; */
+    text-align: center;
+    
+}
+.text-card1, .text-card2 {
+    padding:0 80px; 
+   padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.text-card1 {
+    background: url(./images/desktop/image-graphic-design.jpg) no-repeat center center/cover; 
+    color: hsl(167, 40%, 24%); 
+}
+.text-card2 {
+    background: url(./images/desktop/image-photography.jpg) no-repeat center center/cover;  
+    color: hsl(198, 62%, 26%);  
+}
+
+.text-card1 h3, .text-card2 h3 {
+    padding-bottom: 30px ;
+    font-size: 2rem;
+}
+
+
+
+.testimonials {
+    padding: 100px 30px;
+    text-align: center;
+    background:hsl(0, 0%, 100%) ;
+}
+
+.testimonials h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.testimonial p {
+    padding: 40px 10px;
+    min-height: 200px;
+}
+
+
+.boxes {
+    display: flex;
+}
+.box {
+    height: 50vh;
+    width: 100%;
+}
+.box1 {
+    background: url(/images/desktop/image-gallery-milkbottles.jpg) no-repeat center center/cover;
+}
+.box2 {
+    background: url(/images/desktop/image-gallery-orange.jpg) no-repeat center center/cover;
+}
+.box3 {
+    background: url(/images/desktop/image-gallery-cone.jpg) no-repeat center center/cover;
+}
+.box4 {
+    background: url(/images/desktop/image-gallery-sugarcubes.jpg) no-repeat center center/cover;
+}
+.footer {
+    text-align: center;
+    padding: 50px;
+    background:  hsl(168, 34%, 41%);
+}
+
+.footer .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.footer nav ul, .social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer a:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+
